@@ -129,14 +129,14 @@ components:
         owner:
           type: ObjectId
           description: user
-        example:
-          _id: ObjectId("507f1f77bcf86cd799439011")
-          title: ProductOne
-          description: ProductOne descruption
-          code: jg9kkf
-          price: 7000
-          status: true
-          stock: 11
-          category: pants
-          thumbnails: ["image1", "image2"]
-          owner: ObjectId("507f191e810c19729de860ea")
+      example:
+        _id: ObjectId("507f1f77bcf86cd799439011")
+        title: ProductOne
+        description: ProductOne descruption
+        code: jg9kkf
+        price: 7000
+        status: true
+        stock: 11
+        category: pants
+        thumbnails: ["image1", "image2"]
+        owner: ObjectId("507f191e810c19729de860ea")

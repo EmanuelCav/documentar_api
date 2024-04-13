@@ -130,7 +130,7 @@ components:
         user:
           type: ObjectId
           description: user
-        example:
-          _id: ObjectId("507f1f77bcf86cd799439011")
-          products: []
-          user: ObjectId("507f191e810c19729de860ea")
+      example:
+        _id: ObjectId("507f1f77bcf86cd799439011")
+        products: []
+        user: ObjectId("507f191e810c19729de860ea")
