@@ -16,9 +16,10 @@ const { port } = require('./config/config');
 require('./database/database')
 
 const app = express()
+
 const swaggerOptions = {
     definition: {
-        openApi: "3.1.0",
+        openapi: "3.1.0",
         info: {
             title: "Documentation about products and carts",
             description: "API for products and carts from eCommerce documentation"
